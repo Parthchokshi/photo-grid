@@ -1,14 +1,10 @@
-import React, { Component, Fragment } from "react";
-import Header from "./header";
+import React, { Fragment } from 'react';
+import Header from './components/header/index';
 
-class App extends Component {
-  render() {
-    return (
-      <Fragment>
-        <Header />
-      </Fragment>
-    );
-  }
-}
+const App = () => (
+  <Fragment>
+    <Header />
+  </Fragment>
+);
 
 export default App;
